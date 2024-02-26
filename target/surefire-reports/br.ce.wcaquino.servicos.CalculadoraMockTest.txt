@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: br.ce.wcaquino.servicos.CalculadoraMockTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.926 sec <<< FAILURE! - in br.ce.wcaquino.servicos.CalculadoraMockTest
+devoMostrarDiferencaEntreMockSpy(br.ce.wcaquino.servicos.CalculadoraMockTest)  Time elapsed: 0.463 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:26)
+
+teste(br.ce.wcaquino.servicos.CalculadoraMockTest)  Time elapsed: 0.463 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculadoraMockTest.setup(CalculadoraMockTest.java:26)
+

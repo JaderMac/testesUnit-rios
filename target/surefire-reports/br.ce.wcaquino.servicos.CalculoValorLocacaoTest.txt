@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: br.ce.wcaquino.servicos.CalculoValorLocacaoTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 5.396 sec <<< FAILURE! - in br.ce.wcaquino.servicos.CalculoValorLocacaoTest
+deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.449 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.449 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.449 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+
+deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%](br.ce.wcaquino.servicos.CalculoValorLocacaoTest)  Time elapsed: 0.449 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.CalculoValorLocacaoTest.setup(CalculoValorLocacaoTest.java:55)
+

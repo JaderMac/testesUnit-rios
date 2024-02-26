@@ -1,0 +1,184 @@
+-------------------------------------------------------------------------------
+Test set: br.ce.wcaquino.servicos.LocacaoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 9.05 sec <<< FAILURE! - in br.ce.wcaquino.servicos.LocacaoServiceTest
+naoDeveAlugarFilmeSemUsuario(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.455 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeSemUsuario(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.455 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveCalcularValorLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.455 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveAlugarFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.453 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveCalcularValorLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveTratarErronoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveEnviarEmailParaLocacoesAtrasadas(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.453 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeParaNegativadoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeSemFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveProrrogarUmaLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeSemFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeSemEstoque(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeSemEstoque(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.454 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveDevolverNaSegundaAoAlugarNoSabado(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.453 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveProrrogarUmaLocacao(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.453 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveTratarErronoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.452 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+naoDeveAlugarFilmeParaNegativadoSPC(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveDevolverNaSegundaAoAlugarNoSabado(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.449 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveEnviarEmailParaLocacoesAtrasadas(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.45 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
+deveAlugarFilme(br.ce.wcaquino.servicos.LocacaoServiceTest)  Time elapsed: 0.44 sec  <<< ERROR!
+java.lang.AbstractMethodError: Receiver class org.powermock.api.mockito.internal.exceptions.StackTraceCleanerProvider$1 does not define or inherit an implementation of the resolved method 'abstract boolean isIn(java.lang.StackTraceElement)' of interface org.mockito.exceptions.stacktrace.StackTraceCleaner.
+	at org.mockito.internal.exceptions.stacktrace.StackTraceFilter.filter(StackTraceFilter.java:52)
+	at org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter.filter(ConditionalStackTraceFilter.java:22)
+	at org.mockito.exceptions.base.MockitoException.filterStackTrace(MockitoException.java:42)
+	at org.mockito.exceptions.base.MockitoException.<init>(MockitoException.java:30)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:102)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.setup(LocacaoServiceTest.java:68)
+
